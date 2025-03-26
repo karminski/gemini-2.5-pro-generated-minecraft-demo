@@ -1,5 +1,5 @@
-import * as THREE from 'three';
-import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+import * as THREE from './three.module.js';
+import { PointerLockControls } from './PointerLockControls.js';
 
 // --- 配置常量 ---
 const WORLD_SIZE_X = 25;

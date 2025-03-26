@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    /* 隐藏滚动条 */
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB;
+    /* 天空蓝背景 */
+    color: white;
+}
+
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+#instructions {
+    width: 80%;
+    max-width: 400px;
+    /* Limit max width */
+    height: auto;
+    /* Auto height based on content */
+    cursor: default;
+    background-color: rgba(50, 50, 50, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    /* Ensure text is visible */
+}
+
+canvas {
+    display: block;
+    /* 移除canvas底部的小间隙 */
+}
